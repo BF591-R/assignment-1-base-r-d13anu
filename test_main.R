@@ -3,7 +3,6 @@
 library(testthat)
 
 # if you change the name of your script, this line must be changed as well
-source("main.R")
 
 describe("less_than_zero()", {
   it("returns TRUE for negative numbers", {
